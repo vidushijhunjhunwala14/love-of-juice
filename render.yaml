@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: love-of-juice
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
